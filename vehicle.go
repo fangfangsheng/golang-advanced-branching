@@ -27,13 +27,13 @@ type Values struct {
 
 // Model array for the feedback.json file
 type Model struct {
-	name     string   `json:"model"`
+	Name     string   `json:"model"`
 	Feedback []string `json:"feedback"`
 }
 
 type feedbackResult struct {
 	feedbackTotal    int
-	feedbackPostive  int
+	feedbackPositive int
 	feedbackNegative int
 	feedbackNeutral  int
 }
